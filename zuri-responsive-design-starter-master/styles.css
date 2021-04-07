@@ -347,7 +347,7 @@ div.footer h6 {
 
 @media screen and (max-width: 650px) {
   div {
-    width: 100%;
+    width: 50vh;
   }
   div.box1,
   div.box3 {
