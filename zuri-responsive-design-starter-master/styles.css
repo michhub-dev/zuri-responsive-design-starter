@@ -350,6 +350,7 @@ div.footer h6 {
     min-width: 100vw;
   }
   div.background {
+    position:absolute;
     width: 70%;
     height: 350px;
     font-size: 0.5rem;
