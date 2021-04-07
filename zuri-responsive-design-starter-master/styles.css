@@ -378,14 +378,18 @@ div.footer h6 {
 
   div.nav-bar {
     display: block;
+     float: left;
+    text-align: center;
+    padding-left: 20px;
   }
   div.nav-link {
     float: left;
     padding-right: 0px;
   }
   div.logo {
-    font-size: 1rem;
-    float: left;
+   font-size: 2rem;
+    text-align: center;
+    margin: 5px;
   }
   div.snapshot-team {
     margin-top: 10px;
