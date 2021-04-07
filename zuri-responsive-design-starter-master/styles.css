@@ -360,6 +360,13 @@ div.footer h6 {
     margin-bottom: 15px;
      overflow:hidden;
   }
+  
+  div.background h4 {
+    padding: 1rem;
+    font-size: 0.6rem;
+    letter-spacing: 1px;
+  }
+  
   div.snapshot-box-content {
     display: inline;
   }
