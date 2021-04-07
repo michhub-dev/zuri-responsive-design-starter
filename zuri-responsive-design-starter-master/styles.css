@@ -346,24 +346,44 @@ div.footer h6 {
 }
 
 @media screen and (max-width: 650px) {
-  div {
-    width: 50vh;
+  body {
+    min-width: 100vw;
+  }
+  div.background {
+    position: absolute;
+    width: 70%;
+    height: 350px;
+  }
+  div.snapshot-box-content {
+    display: inline;
   }
   div.box1,
   div.box3 {
     width: 100%;
   }
-  ul.nav-links,
+
   div.nav-bar {
     width: 100%;
+    display: block;
+  }
+  div.logo {
+    font-size: 1rem;
+  }
+  div.snapshot-team p {
+    font-size: 1rem;
+    letter-spacing: 1.5px;
   }
 
-  div.snapshot-box-content {
-    display: inline;
+  div.hero-content-heading h3 {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    font-weight: 100;
   }
-  div.background {
-    position: absolute;
-    width: 80%;
-    height: 300px;
+  div.hero-content-heading p {
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    font-weight: 100;
   }
+
 }
+
