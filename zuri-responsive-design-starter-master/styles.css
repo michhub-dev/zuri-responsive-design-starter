@@ -353,6 +353,8 @@ div.footer h6 {
     position: absolute;
     width: 70%;
     height: 350px;
+    font-size: 0.5rem;
+    letter-spacing: 1px;
   }
   div.snapshot-box-content {
     display: inline;
