@@ -357,7 +357,8 @@ div.footer h6 {
     letter-spacing: 1px;
   }
    div.background p {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+     overflow:hidden;
   }
   div.snapshot-box-content {
     display: inline;
@@ -368,8 +369,11 @@ div.footer h6 {
   }
 
   div.nav-bar {
-    float:left;
     display: block;
+  }
+  div.nav-link {
+    float: left;
+    padding-right: 0px;
   }
   div.logo {
     font-size: 1rem;
